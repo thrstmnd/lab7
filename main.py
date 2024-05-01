@@ -26,7 +26,7 @@ def zadacha3():
         jpg.save("C:\Users\user\PycharmProjects\lab7\image" + i + ".jpg")
 
 def zadacha4():
-    jpg = Image.open('1.jpg')
+    jpg = Image.open('dog.jpg')
     png = Image.open('water.png')
-    jpg.paste(png, (300,230))
+    jpg.paste(png, (50,500))
     jpg.save('zadacha4.jpg')
