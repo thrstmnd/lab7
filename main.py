@@ -22,7 +22,7 @@ def zadacha3():
     for i in range(1, 6):
         i = str(i)
         jpg = Image.open(i + '.jpg')
-        jpg = jpg.filter(ImageFilter.SHARPEN)
+        jpg = jpg.filter(ImageFilter.SMOOTH_MORE)
         jpg.save("C:\Users\user\PycharmProjects\lab7\image" + i + ".jpg")
 
 def zadacha4():
